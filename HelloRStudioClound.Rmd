@@ -1,0 +1,40 @@
+---
+title: "HelloRStudioCloud"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## はじめに
+
+* ハードを買って計算するのって結構お金かかるし、
+  使ってない時間ももったいないのでクラウドでRを使えたら
+  最強だよね、という話。
+* そこで "R Studio Cloud" を試しに使ってみてます。
+  Vimは使えるし、コンテナみたいに独立してるし、
+  とってもいい感じです。
+* Github documentを生成するときは以下で
+  `rmarkdown` を入れます。
+  参考は[こちら](https://rmarkdown.rstudio.com/github_document_format.html)です。
+  
+```{r}
+install.packages("rmarkdown")
+```
+
+## GitHubとの連携
+
+### Git を有効化する
+
+1. `Tools` から `Version Control` に行き、 `Git` を選択
+1. メールアドレスや名前を変更して、
+   以下のコマンドを実行
+   ```shell
+   $ git config --global user.email "kishiyamat@gmail.com"
+   $ git config --global user.name "Takeshi KISHIYAMA"
+   ```
+1. あとは普通に Git を使える。
+
+### Github にディレクトリを作る
+
