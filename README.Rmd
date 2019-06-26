@@ -1,11 +1,13 @@
 ---
-title: "HelloRStudioCloud"
+title: "README"
 output: github_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+すごい `RStudioCloud` 楽しく学ぼう
 
 ## はじめに
 
@@ -38,3 +40,14 @@ install.packages("rmarkdown")
 
 ### Github にディレクトリを作る
 
+1. Github上でリポジトリを作成
+1. "push an existing repository from the command line" という部分をコピペする。
+   人によって違うので注意。
+   ```shell
+   git remote add origin https://github.com/kishiyamat/HelloRStudioCloud.git
+   git push -u origin master
+   ```
+
+## おわりに
+
+* 課金編

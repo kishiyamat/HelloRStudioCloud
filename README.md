@@ -1,5 +1,7 @@
-HelloRStudioCloud
+README
 ================
+
+すごい `RStudioCloud` 楽しく学ぼう
 
 ## はじめに
 
@@ -34,3 +36,17 @@ install.packages("rmarkdown")
 3.  あとは普通に Git を使える。
 
 ### Github にディレクトリを作る
+
+1.  Github上でリポジトリを作成
+
+2.  “push an existing repository from the command line” という部分をコピペする。
+    人によって違うので注意。
+    
+    ``` shell
+    git remote add origin https://github.com/kishiyamat/HelloRStudioCloud.git
+    git push -u origin master
+    ```
+
+## おわりに
+
+  - 課金編
